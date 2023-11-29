@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nova+Square&family=Roboto:wght@400;700&display=swap');
+
+.banner {
+  background-image: url("https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true");
+  background-position: fixed;
+  background-color: #003459;
+  background-blend-mode: lighten;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #1EAFED;
+}
+
+.logo{
+  padding: 50px;
+}
+
+.banner-content{
+  text-align: center;
+}
+
+.banner-content h1{
+  font-family: 'Nova Square', sans-serif;
+  color: #00A8E8;
+}
+
+.banner-content p{
+  margin-top: 25px;
+  width: 450px;
+  font-family: 'Roboto';
+  color: #FFFFFF;
+}
+
+.banner-content button{
+  border: 2px solid #00A8E8;
+  padding: 10px 50px 10px 50px;
+  margin: 30px 0px 50px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #003459;
+    
+}
+
+
+
+#course-content {
+  background-color: #00171F;
+  height: 600px;
+  border-bottom: 1px solid #00A8E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+#course-content h2{
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-family: 'Roboto';
+  color: #00A8E8;
+}
+
+#course-content p{
+  text-align: center;
+  padding-bottom: 25px;
+  width: 700px;
+  font-family: 'Roboto';
+}
+
+.modules-list {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  padding-bottom: auto;
+  font-family: 'Roboto';
+}
+
+.module {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #1EAFED;
+  border-radius: 50px;
+  text-align: center;
+  height: 20px;
+  color: #FFFFFF;
+  box-shadow: inset 0px 3px 5px grey;
+}
+
+.module span{
+  color: #00A8E8;
+}
+
+#transform-world {
+  background-image: url("https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/woman-code.png?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+#transform-world p{
+  width: 250px;
+  word-break: keep-all;
+  font-family: 'Lilita One';
+  font-size: 30px;
+  text-shadow: 2px 2px #00A8E8;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding-left: 50px;
+}
+
+#professional-challenges {
+  background-color: #00171F;
+  height: 800px;
+  border-bottom: 1px solid #00A8E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+#professional-challenges h2{
+  font-family: 'Roboto';
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+  padding: 20px;
+  color: #00A8E8;
+}
+
+#professional-challenges p{
+  font-family: 'Roboto';
+  text-align: center;
+  width: auto;
+  padding: 50px 200px 50px 200px;
+}
+
+footer{
+  background-color: #00171F;
+  height: 100px;
+  border-bottom: 1px solid #00A8E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+footer p{
+  
+}
+
+footer a{
+  color: #00A8E8;
+  text-decoration: none;
+}
